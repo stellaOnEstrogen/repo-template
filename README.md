@@ -42,8 +42,7 @@ repo-template/
 │   ├── PULL_REQUEST_TEMPLATE.md
 │   └── workflows/
 │       ├── dependency-review.yml
-│       ├── stale.yml
-│       └── release-drafter.yml
+│       └── stale.yml
 │   └── ISSUE_TEMPLATE/
 │       ├── bug_report.yml
 │       ├── feature_request.yml
@@ -66,11 +65,9 @@ repo-template/
   - `COMMIT_CONVENTION.md`: Commit message convention for the repository.
   - `CONTRIBUTING.md`: Contribution guidelines for the repository.
   - `PULL_REQUEST_TEMPLATE.md`: Pull request template for the repository.
-  - `release-drafter.yml`: Configuration file for the release drafter.
   - `workflows/`: Contains the GitHub workflows for the repository.
     - `dependency-review.yml`: Workflow for dependency review.
     - `stale.yml`: Workflow for managing stale issues.
-    - `release-drafter.yml`: Workflow for automatically drafting releases.
   - `ISSUE_TEMPLATE/`: Contains the issue templates for the repository.
     - `bug_report.yml`: Bug report template.
     - `feature_request.yml`: Feature request template.
